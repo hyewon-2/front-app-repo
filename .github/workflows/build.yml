@@ -22,7 +22,6 @@ jobs:
       - name: Build front
         run: |
           npm install
-          npm run build
           CI=false npm run build
 
       - name: Configure AWS credentials
