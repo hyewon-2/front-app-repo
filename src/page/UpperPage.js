@@ -13,7 +13,7 @@ import Button from '@mui/material/Button';
 
 import Box from '@mui/material/Box';
 
-functiot UpperPage() {
+function UpperPage() {
   const [data, setData] = useState({ outcome: [] });
 
   const url = 'http://k8s-eksdemogroup-e0353f9ab7-1798271026.ap-northeast-2.elb.amazonaws.com/services/all';
